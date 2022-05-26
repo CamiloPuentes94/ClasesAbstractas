@@ -5,7 +5,7 @@ namespace ClasesAbstracta
 {
     public interface IAnimalesYDeportes
     {
-        string tipoDeportes();
-        Boolean esOlimpico();
+        string TipoDeporte();
+        Boolean EsOlimpico();
     }
 }

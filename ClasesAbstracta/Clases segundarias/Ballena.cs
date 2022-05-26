@@ -1,4 +1,6 @@
-﻿namespace ClasesAbstracta
+﻿using System;
+
+namespace ClasesAbstracta
 {
     public class Ballena: Mamiferos
     {
@@ -7,6 +9,10 @@
         {
             
         }
-        
+
+        public void Nadar()
+        {
+            Console.WriteLine("Soy capaz de nadar");
+        }
     }
 }

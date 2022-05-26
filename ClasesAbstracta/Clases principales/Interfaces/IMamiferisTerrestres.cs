@@ -2,6 +2,6 @@
 {
     public interface IMamiferisTerrestres
     {
-        int numeroPatas();
+        int NumeroPatas();
     }
 }
