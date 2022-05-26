@@ -2,7 +2,8 @@
 
 namespace ClasesAbstracta
 {
-    public class Caballo: Mamiferos, IMamiferisTerrestres, IAnimalesYDeportes, ISaltoConPatas
+    // asi se sella una clase para que no se pueda heredar de ella
+    sealed class Caballo: Mamiferos, IMamiferisTerrestres, IAnimalesYDeportes, ISaltoConPatas
     {
 
         public Caballo(string nombre) : base(nombre)

@@ -8,8 +8,8 @@ namespace ClasesAbstracta
         {
             
         }
-
-        public override void Pensar()
+        // estamos sellando el metodo para que no se deje heredar
+        public sealed override void Pensar()
         {
             Console.WriteLine("Pensamiento instintivo avanzado");
         }

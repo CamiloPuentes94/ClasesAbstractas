@@ -1,7 +1,13 @@
-﻿namespace ClasesAbstracta.Clases_Terciarias
+﻿using System;
+
+namespace ClasesAbstracta.Clases_Terciarias
 {
-    public class Chimpance
+    public class Chimpance: Gorila
     {
-        
+        public Chimpance(string nombre) : base(nombre)
+        {
+            
+        }
+
     }
 }
